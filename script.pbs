@@ -10,4 +10,4 @@ module load R
 
 cd ~/UA-HPC-Intro-R
 
-Rscript hello.R
+Rscript helloworld.R
