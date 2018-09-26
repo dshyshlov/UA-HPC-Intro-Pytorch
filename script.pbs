@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N helloR
+#PBS -W group_list=
+#PBS -q standard
+#PBS -l select=1:ncpus=1:mem=6gb:pcmem=6gb
+#PBS -l walltime=0:1:0
+#PBS -l cput=0:1:0
+
+module load R
+
+cd ~/UA-HPC-Intro-R
+
+Rscript hello.R
