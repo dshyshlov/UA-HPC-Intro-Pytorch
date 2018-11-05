@@ -7,8 +7,9 @@
 #PBS -l cput=0:28:0
 
 module load singularity
-CONTAINER=/unsupported/singularity/nvidia/nvidia-pytorch.18.06-py3.simg
 
 cd ~/UA-HPC-Intro-Pytorch
+
+CONTAINER=/unsupported/singularity/nvidia/nvidia-pytorch.18.06-py3.simg
 
 singularity exec $CONTAINER python helloworld.py
