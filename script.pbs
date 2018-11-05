@@ -12,4 +12,4 @@ cd ~/UA-HPC-Intro-Pytorch
 
 CONTAINER=/unsupported/singularity/nvidia/nvidia-pytorch.18.06-py3.simg
 
-singularity exec $CONTAINER python helloworld.py
+singularity exec --nv $CONTAINER python helloworld.py
